@@ -33,56 +33,61 @@ import wireless04 from "../Images/wireless-04.png";
 import sofaSlide from "../Images/hero-img.png";
 import watchSlide from "../Images/watch-07.png";
 
+import home1Img from "../Images/home-01.png";
+import home2Img from "../Images/home-02.png";
+import home3Img from "../Images/home-03.png";
+import home4Img from "../Images/home-04.png";
+
 export const SliderData = [
   {
       id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: sofaSlide,
+      title: "Best Place to Buy and Sell Books",
+      desc: "Seeling and Buy Used Books have never been simpler than this",
+      cover: home1Img,
   },
   {
       id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: phone08,
+      title: "Buy Books at Affordable Rates",
+      desc: "Best place to buy budget friendly and affordable books right from the comfort of your home",
+      cover: home2Img,
   },
   {
       id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: wireless01,
+      title: "Best place to list and sell your old books",
+      desc: "Get rid of your old books and also make money doing that !",
+      cover: home3Img,
   },
   {
       id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: watchSlide,
+      title: "Massive Discounts on Popular Books",
+      desc: "Get Discounts upto 50% on some of the most popular books",
+      cover: home4Img,
   },
 ];
 
 export const serviceData = [
   {
     icon: <ion-icon name="car"></ion-icon>,
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Shipping Service",
+    subtitle: "We provide shipping services to deliver books right to your doorstep",
     bg: "#fdefe6",
   },
   {
     icon: <ion-icon name="card"></ion-icon>,
     title: "Safe Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    subtitle: "100% Safe and Secure Payment Method on Every Transaction",
     bg: "#ceebe9",
   },
   {
-    icon: <ion-icon name="shield-half-outline"></ion-icon>,
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: <ion-icon name="bicycle-outline"></ion-icon>,
+    title: "Self Pickup Option",
+    subtitle: "Option to pick your books yourself to save cost on delivery charges",
     bg: "#e2f2b2",
   },
   {
-    icon: <ion-icon name="headset"></ion-icon>,
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    icon: <ion-icon name="wallet-outline"></ion-icon>,
+    title: "Budget Freindly",
+    subtitle: "Buy Books at Affordable and Budget Friendly Rates",
     bg: "#d6e5fb",
   },
 ];
